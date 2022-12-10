@@ -15,8 +15,8 @@ void GetRandom(double [] massiv)
 }
 Console.WriteLine(String.Join(", ", array));
 
-double minnum = array[0];
-double maxnum = array[0];
+double minnum = Int32.MaxValue;
+double maxnum = Int32.MinValue;
 for (int i = 0; i <array.Length; i++)
 {
     if (array[i]>maxnum)
